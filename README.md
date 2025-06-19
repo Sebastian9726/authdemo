@@ -187,7 +187,8 @@ Para obtener la lista completa de usuarios disponibles, usa el endpoint `/api/au
 
 ![Login exitoso - 200 OK]
 
-imagen login
+![login](https://github.com/user-attachments/assets/bb6e1f85-c765-48d0-b98b-3a5de89f2eda)
+
 
 ### 2. Respuesta personalizada de error (GET /api/auth/me sin token)
 
@@ -206,17 +207,13 @@ GET /api/auth/me
 }
 ```
 
-![Error personalizado - 401 Unauthorized]
-
-imagen error Unauthorized
-
 ### 3. Persistencia en base de datos
 
 Los registros de login se guardan exitosamente en la tabla `login_log` de PostgreSQL:
 
 ![Registros en base de datos]
 
-foto registro base de datos
+![db](https://github.com/user-attachments/assets/04d4de9e-bfdf-432b-9e27-913977f809a7)
 
 **Ejemplo de registro guardado:**
 - **ID:** 9a722491-bfec-494b-85eb-17f6d414255c
